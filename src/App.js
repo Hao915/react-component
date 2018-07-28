@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Button from './components/Button/index.js';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
         <p className="App-intro">
           This is test page <code>src/App.js</code> and save to reload.
         </p>
+        <Button primary>Test</Button>
       </div>
     );
   }
